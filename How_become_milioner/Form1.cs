@@ -29,5 +29,10 @@ namespace How_become_milioner
 
         }
 
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
     }
 }

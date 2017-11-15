@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace How_become_milioner
 {
-    class Business_Layer_1:IBusiness_Layer
+    public class List:IList
     {
+        List<Question> human = new List<Question>();
     }
 }

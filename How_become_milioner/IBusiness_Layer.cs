@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace How_become_milioner
 {
-    class IBusiness_Layer
+    public interface IBusiness_Layer
     {
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace How_become_milioner
 {
-    class Data_Access_Layer
+    public interface ISerializer
     {
+        void Save(ICollection<List> collection);
+        ICollection<List> Load();
     }
 }

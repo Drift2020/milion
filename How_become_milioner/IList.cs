@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace How_become_milioner
 {
-    class IData_Access_Layer
+    public interface IList
     {
     }
 }
