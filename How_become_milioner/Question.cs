@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace How_become_milioner
 {
     [Serializable]
-    class Question
+    public class Question
     {
         string question;
         string answer_1;

@@ -8,7 +8,7 @@ namespace How_become_milioner
 {
     public interface ISerializer
     {
-        void Save(ICollection<List> collection);
-        ICollection<List> Load();
+        void Save(ICollection<Question> collection);
+        ICollection<Question> Load();
     }
 }

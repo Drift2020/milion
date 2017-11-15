@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace How_become_milioner
 {
-    public interface IList
+    public interface ILog
     {
+        void Write(string str);
+
+        void Print_Question(string str);
     }
 }

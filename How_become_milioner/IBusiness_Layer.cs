@@ -8,5 +8,6 @@ namespace How_become_milioner
 {
     public interface IBusiness_Layer
     {
+
     }
 }
