@@ -10,17 +10,32 @@ using System.Windows.Forms;
 
 namespace How_become_milioner
 {
+  
     public partial class Form1 : Form
     {
+        delegate void MyDelegate();
+        event MyDelegate ev;
+        public void GeneratorEvent()
+        {           
+            if (ev != null)
+                ev();
+        }
+
+
         static void Client(ILog clog, ISerializer serializer)
         {
-            Сontainer c = new Сontainer();
-            c.SetLog(clog);
-        }
-            public Form1()
-        {
-            InitializeComponent();
+
            
+        }
+        public Form1()
+        {
+
+            InitializeComponent();
+            Сontainer c = new Сontainer();           
+            c.SetSerializer(new SerializerStringText());
+            c.Load();
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,10 +45,7 @@ namespace How_become_milioner
 
         private void Start_Click(object sender, EventArgs e)
         {
-            Client();
-            
-
-
+         
         }
 
         private void Exit_Click(object sender, EventArgs e)

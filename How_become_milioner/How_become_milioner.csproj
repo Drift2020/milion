@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="IBusiness_Layer.cs" />
     <Compile Include="ILog.cs" />
+    <Compile Include="SerializerStringText.cs" />
     <Compile Include="Сontainer.cs" />
     <Compile Include="ISerializer.cs" />
     <Compile Include="Dilog.cs" />

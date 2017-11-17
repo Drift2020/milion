@@ -53,11 +53,11 @@ namespace How_become_milioner
         // для XML-сериализации необходим конструктор по умолчанию
         public Question()
         {
-            this.question = "Who is ferst person no moon?";
-            this.answer_1 = "Cat :3";
-            this.answer_2 = "none";
-            this.answer_3 = "none";
-            this.answer_4 = "none";
+            this.question = "";
+            this.answer_1 = "";
+            this.answer_2 = "";
+            this.answer_3 = "";
+            this.answer_4 = "";
         }
     }
 }
